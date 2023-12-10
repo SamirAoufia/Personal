@@ -9,6 +9,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.carousel-img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+#carouselExample {
+  display: flex;
+  align-items: center;
+  height: 55vh; /* Ajuster la hauteur du carrousel à la hauteur de la fenêtre */
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
