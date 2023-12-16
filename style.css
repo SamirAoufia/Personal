@@ -45,7 +45,7 @@
 #carouselExample {
   display: flex;
   align-items: center;
-  height: 55vh; /* Ajuster la hauteur du carrousel à la hauteur de la fenêtre */
+  height: 80vh; /* Ajuster la hauteur du carrousel à la hauteur de la fenêtre */
 }
 
 body {
