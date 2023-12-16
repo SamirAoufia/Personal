@@ -10,6 +10,30 @@
 # General
 --------------------------------------------------------------*/
 
+
+#tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.bouton-noir {
+  background-color: black; /* Couleur de fond noire */
+  color: white; /* Couleur du texte en blanc */
+  padding: 10px 20px; /* Espacement du texte à l'intérieur du bouton */
+  border: 2px solid white; /* Ajoute un contour blanc de 2 pixels */
+  border-radius: 5px; /* Ajoute une bordure arrondie au bouton */
+  cursor: pointer; /* Change le curseur au survol pour indiquer qu'il est cliquable */
+}
+
+.highlight-text {
+  color: red; /* Remplacez cette couleur par la couleur que vous souhaitez */
+}
+
 .carousel-img {
   width: 80%;
   height: 100%;

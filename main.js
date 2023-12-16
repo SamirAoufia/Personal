@@ -5,6 +5,18 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+function showTooltip(text) {
+  const tooltip = document.getElementById('tooltip');
+  tooltip.innerHTML = text;
+  tooltip.style.display = 'block';
+}
+
+function hideTooltip() {
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.display = 'none';
+}
+
 (function() {
   "use strict";
 
