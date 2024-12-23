@@ -24,10 +24,34 @@
 
   <!-- Template Main CSS File -->
   <link href="./style.css" rel="stylesheet">
+
+  <style>
+    .home-button {
+      position: fixed;
+      top: 45px;
+      left: 20px;
+      padding: 10px 20px;
+      background-color: black; /* Couleur de fond noire */
+      color: white; /* Couleur du texte blanche */
+      font-size: 16px;
+      text-align: center;
+      border: 2px solid white; /* Bordure blanche */
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .home-button:hover {
+      background-color: white; /* Fond blanc au survol */
+      color: black; /* Texte noir au survol */
+      border-color: black; /* Bordure noire au survol */
+    }
+  </style>
    
 </head>
 
 <body>
+  <a href="https://bysaama.tech/Personal" class="home-button">Home</a>
 <div class="container">
     <div class="section-title">
     <br/>
@@ -65,7 +89,7 @@
         <p>The embedded system part used an ESP8266 as microcontroller, a DHT22 as the sensor, a basic lamp and 2 basic fan.
           </p>
 
-        <p>          The mobile application used Expo Go with react native and typescript to create my application.
+        <p>The mobile application used Expo Go with react native and typescript to create my application.
           
         </p>
 

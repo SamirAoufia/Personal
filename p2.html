@@ -24,10 +24,34 @@
 
   <!-- Template Main CSS File -->
   <link href="./style.css" rel="stylesheet">
+
+  <style>
+    .home-button {
+      position: fixed;
+      top: 45px;
+      left: 20px;
+      padding: 10px 20px;
+      background-color: black; /* Couleur de fond noire */
+      color: white; /* Couleur du texte blanche */
+      font-size: 16px;
+      text-align: center;
+      border: 2px solid white; /* Bordure blanche */
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .home-button:hover {
+      background-color: white; /* Fond blanc au survol */
+      color: black; /* Texte noir au survol */
+      border-color: black; /* Bordure noire au survol */
+    }
+  </style>
    
 </head>
 
 <body>
+  <a href="https://bysaama.tech/Personal" class="home-button">Home</a>
 <div class="container">
     <div class="section-title">
     <br/>
@@ -71,7 +95,7 @@
 
         <p>My teammate and I, working together on this project, came up with the theme "Lego colours".</p>
         
-        <p>We had to develop a system that would recognize the different colours of the Lego bricks as they moved along a conveyor belt, send them to a database and finally display them on our website.</p>
+        <p>We had to develop a system that would recognize the different colours of the Lego bricks as they moved along a conveyor belt, send them to a database and display them on our website.</p>
         
         <p>We started the project by making a mind map to properly understand what the system needed to work on, after which we split the project in 2 parts. Theo was in charge of the website part, and I was in charge of the embedded system part.</p>
         
